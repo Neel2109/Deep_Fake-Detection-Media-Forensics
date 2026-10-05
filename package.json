@@ -1,0 +1,21 @@
+{
+  "name": "deeptrace-ai-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node node_modules/vite/bin/vite.js --host 0.0.0.0 --port 5173",
+    "build": "node node_modules/vite/bin/vite.js build",
+    "preview": "node node_modules/vite/bin/vite.js preview --host 0.0.0.0 --port 4173",
+    "dev:all": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\launch-project.ps1"
+  },
+  "dependencies": {
+    "docx": "^9.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.10"
+  }
+}

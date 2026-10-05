@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.backend-venv/
+.env
+reports/*
+data/uploads/*
+data/reports/*
+data/*.sqlite3
+data/*.sqlite3-shm
+data/*.sqlite3-wal
+weights/*.pth
+node_modules/
+dist/
+.DS_Store
+npm-debug.log*
